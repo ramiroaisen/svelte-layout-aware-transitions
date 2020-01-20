@@ -1,4 +1,4 @@
-# Svelte Layout Aware Transitions
+# Svelte Layout Aware Transitions [DEMO](https://ramiroaisen.github.io/svelte-layout-aware-transitions/)
 
 ### Install
 ```sh
