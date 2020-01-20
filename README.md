@@ -5,21 +5,22 @@
 npm i svelte-layout-aware-transitions
 ```
 
+
 ### Use
-```svelte
+```html
 <script>
 	import {
     	slideLeft,
-        flyLeft,
-        
-        slideRight,
-        flyRight,
-        
-        slideDown,
-        flyDown,
-        
-        slideUp,
-        flyUp
+      flyLeft,
+      
+      slideRight,
+      flyRight,
+      
+      slideDown,
+      flyDown,
+      
+      slideUp,
+      flyUp
     } from "svelte-layout-aware-transitions";
 </script>
 
@@ -37,13 +38,14 @@ Fly transitions are equal to slide but adding the fade effect.
 
 All transitions accepts the same params with the same defaults:
 ```js
-    duration: 400
-    delay: 0
-    easing: cubicOut // (see svelte/easing)
-    
+  duration: 400
+  delay: 0
+  easing: cubicOut // (see svelte/easing)
 ```
 
 ### TODO
 Add more transitions
 
 Change the name to a better (shorter) one
+
+Make a demo page

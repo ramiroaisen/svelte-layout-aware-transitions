@@ -2,7 +2,7 @@
   .infinite{
     width: var(--size);
     height: var(--size);
-    border-radius: 2px;
+    border-radius: 50%;
     background: blue;
     margin: 1em;
     flex: none;
@@ -17,10 +17,13 @@
   let visible = false;
   const duration = (opts.duration || 400);
   onMount(() => { 
-    setTimeout(function fn(){
-      visible = !visible
-      setTimeout(fn, duration)
-    }, duration);
+    const timeout = duration + 500;
+    const fn = () => {
+      visible = !visible;
+      setTimeout(fn, duration);
+    }
+
+    setTimeout(fn, 10);
   })
 </script>
 
