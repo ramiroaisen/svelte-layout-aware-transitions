@@ -9,19 +9,19 @@ npm i svelte-layout-aware-transitions
 ### Use
 ```html
 <script>
-	import {
-    	slideLeft,
-      flyLeft,
-      
-      slideRight,
-      flyRight,
-      
-      slideDown,
-      flyDown,
-      
-      slideUp,
-      flyUp
-    } from "svelte-layout-aware-transitions";
+  import {
+    slideLeft,
+    flyLeft,
+
+    slideRight,
+    flyRight,
+
+    slideDown,
+    flyDown,
+
+    slideUp,
+    flyUp
+  } from "svelte-layout-aware-transitions";
 </script>
 
 <div transition:slideLeft={opts}></div>
