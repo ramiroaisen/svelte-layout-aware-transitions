@@ -47,5 +47,3 @@ All transitions accepts the same params with the same defaults:
 Add more transitions
 
 Change the name to a better (shorter) one
-
-Make a demo page
